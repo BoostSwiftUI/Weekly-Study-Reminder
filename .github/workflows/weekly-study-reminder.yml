@@ -22,4 +22,4 @@ jobs:
                ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Log Success
-        run: echo "✅ 금요일 알림 전송 완료!"
+        run: echo "✅ 화요일 알림 전송 완료!"
