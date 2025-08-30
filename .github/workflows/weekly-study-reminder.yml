@@ -2,8 +2,8 @@ name: Weekly iOS Study Reminder
 
 on:
   schedule:
-    # 매주 금요일 오후 6시 30분 KST (UTC 9시 30분)
-    - cron: '30 9 * * 5'
+    # 매주 화요일 오후 9시 KST (UTC 12시)
+    - cron: '0 12 * * 2'
   # 수동 실행도 가능하게 (테스트용)
   workflow_dispatch:
 
